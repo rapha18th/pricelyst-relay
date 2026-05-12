@@ -1,0 +1,12 @@
+{
+  "name": "pricelyst-relay",
+  "version": "1.0.0",
+  "main": "relay.js",
+  "scripts": {
+    "start": "node relay.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
