@@ -6,7 +6,7 @@ app.use(express.json());
 
 const WA_TOKEN = process.env.WA_TOKEN;
 const PHONE_ID = process.env.PHONE_ID;
-const WA_VERSION = process.env.WA_VERSION || 'v22.0';
+const WA_VERSION = process.env.WA_VERSION || 'v25.0';
 
 if (!WA_TOKEN) console.error('ERROR: WA_TOKEN env var is not set');
 if (!PHONE_ID) console.error('ERROR: PHONE_ID env var is not set');
